@@ -42,6 +42,11 @@ detector.detect(mat_image, res)
 
 ### ubuntu
 
+- sudo apt install libgflags-dev
+- OpenCV: [Installation](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
+  - You can install by running the bash script [install_opencv.sh](install_opencv.sh)
+- TensorRT: [Installation](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html#installing)
+
 
 #### jetson nano 
 dependency : gflags , JetPack 4.2.2
@@ -97,7 +102,9 @@ private:
 };
 ```
 
-## REFERENCE
+## REFERENCES
 
 - https://github.com/mj8ac/trt-yolo-app_win64
 - https://github.com/NVIDIA-AI-IOT/deepstream_reference_apps
+- https://github.com/lewes6369/TensorRT-Yolov3
+- https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.html
